@@ -1,0 +1,82 @@
+body {
+  background: rgb(240, 219, 219);
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 10px;              
+  padding: 20px;
+  min-height: 100vh; 
+}
+
+.post {
+	background: white;
+	width: 400px;
+	border-radius: 5px;
+
+}
+
+.logo {
+	width: 20px;
+	height: 20px;
+	margin-left: 7px;
+}
+
+.post-imagen {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+header, .post-cabeza {
+				
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.usuario {
+  display: flex;
+  flex-direction: column; 
+  line-height: 0.1;
+  margin-top: 13px ;
+  margin-left: 7px;
+  font-size: 14px;
+
+
+}
+
+.opciones {
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.guardar{
+	 float: right;
+	 margin-right: 5px;
+	
+}
+
+.iconos {
+	padding: 10px;
+
+}
+
+.iconos > img {
+	width: 30px;
+	height: 30px;
+}
+
+.likes {
+	padding: 0px 10px 2px 14px;
+	font-size: 15px;
+
+}
+ 
+ .descripcion > p {
+ padding: 6px 10px 10px 14px;
+ font-size: 15px;
+ margin-top:0	;
+ }
